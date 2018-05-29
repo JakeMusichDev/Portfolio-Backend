@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "photograph",
+    "description": "Photograph images for photo projects"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "src": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
