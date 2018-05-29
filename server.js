@@ -6,6 +6,7 @@
  *
  * This is handy in situations where the Strapi CLI is not relevant or useful.
  * asdf
+ * asdf
  */
 
 process.chdir(__dirname);
