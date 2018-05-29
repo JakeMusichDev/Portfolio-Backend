@@ -5,6 +5,7 @@
  * To start the server, run: `$ npm start`.
  *
  * This is handy in situations where the Strapi CLI is not relevant or useful.
+ * asdf
  */
 
 process.chdir(__dirname);
