@@ -5,5 +5,12 @@
         "appearance": ""
       }
     }
+  },
+  "photographyProject": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      }
+    }
   }
 }

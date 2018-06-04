@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/photographyproject",
+      "handler": "Photographyproject.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/photographyproject/:_id",
+      "handler": "Photographyproject.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/photographyproject",
+      "handler": "Photographyproject.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/photographyproject/:_id",
+      "handler": "Photographyproject.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/photographyproject/:_id",
+      "handler": "Photographyproject.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

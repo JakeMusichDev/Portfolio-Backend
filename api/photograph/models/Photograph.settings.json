@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "photograph",
   "info": {
     "name": "photograph",
     "description": "Photograph images for photo projects"
@@ -17,6 +17,10 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "photo": {
+      "model": "photographyproject",
+      "via": "photoProject"
     }
   }
 }
